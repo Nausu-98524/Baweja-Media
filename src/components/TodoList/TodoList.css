@@ -1,0 +1,125 @@
+section {
+  width: 90%;
+  padding: 10px;
+  min-height: calc(100vh - 80px);
+}
+
+section .form_data {
+  max-width: 650px;
+  margin: 25px auto;
+  padding: 35px 10px;
+  box-shadow: 0 0 15px -10px rgb(94, 255, 185);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_data h1 {
+  font-size: 34px;
+  color: rgb(3, 145, 83);
+}
+
+/* .deleteIcon{
+
+  color: red;
+} */
+
+.formm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addFrom{
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #d4d0d0;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+.btn{
+  display: block;
+  width: 18%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(2, 195, 89);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.inputChekbox{
+  width: 10px;
+}
+
+.checkbox{
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+}
+
+.deleteRow{
+  width: 45px;
+  text-align: center;
+}
+.deleteBTn{
+  cursor: pointer;
+}
+
+.deleteIcon{
+  color: red;
+}
+
+@media screen and (max-width: 654px) {
+  .addFrom{
+    width: 86%;
+  }
+  .formm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .btn{
+    width: fit-content;
+  }
+}
+
+
+
+
+
